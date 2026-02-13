@@ -9,10 +9,10 @@ The objective was to understand open ports, analyze exposed services, and learn 
 ## 📁 Repository Structure
 
 Task-No.1/
-├── Interview_Question      # Interview questions and answers  
-├── Screenshots            # Masked screenshots of scan results  
-├── scan_result.txt        # Sanitized Nmap scan output  
-└── README.md              # Documentation  
+├─ Interview_Question      # Interview questions and answers  
+├─ Screenshots            # Masked screenshots of scan results  
+├─ scan_result.txt        # Sanitized Nmap scan output  
+└─ README.md              # Documentation  
 
 ---
 
