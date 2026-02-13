@@ -1,0 +1,27 @@
+1. What is an open port?
+->> An open port means a service running on that port and is ready to accept connections from other devices.
+
+2. How does Nmap perform a TCP SYN scan?
+->> Nmap send TCP SYN packet to the target port. If it receives SYN-ACK, then the port is considered as open. if it recieves RST, then the port is considered closed. Nmap then sends an RST to terminate 
+    the connection.
+
+3. What risks are associated with open ports?
+->> Open ports increase a system's attack surface. Attackers can exploit vulnerable services running on open ports to gain unauthorized access, perform brute-force attacks, inject malware, or steal data.
+
+4. Explain the difference between TCP and UDP scanning.
+->> TCP scanning checks ports using connection-based communication and is faster and more reliable because TCP responses clearly indicate whether a port is open or closed and UDP scanning checks 
+    connectionless ports and is slower and less reliable because UDP does not send acknowledgments, so Nmap must wait for ICMP responses or timeouts.
+
+5. How can open ports be secured?
+->> By closing unnecessary ports, using firewalls, updating services, and restricting access.
+
+6. What is a firewall's role regarding ports?
+->> A firewall controls network traffic by allowing or blocking access to ports based on security rules, helping prevent unauthorized connections and protecting services from attacks.            
+
+7. What is a port scan and why do attackers perform it?
+->> A port scan checks which ports are open on a system. Attackers use it to find weak or vulnerable services.
+
+8. How does Wireshark complement port scanning?
+->> Nmap finds open ports, and Wireshark lets you see the actual network packets, helping analyze and confirm scan behavior.
+
+
